@@ -1,7 +1,7 @@
-@import url(<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,900&display=swap'););
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,900&display=swap');
 * {
-    font=family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     outline: 0;
@@ -11,11 +11,58 @@
 :root{
     --primaary: #FFFF00;
     --primary-light: #FFFF7D;
-    --secondary: 
-    --secondary-light:
-    --third: 
-    --third-light:
+    --secondary: #000000;
+    --secondary-light: #225555;
+    --third: #455a64;
+    --third-light: #ffe9ff;
+    --white: #ffffff;
+    --blak: #000000;
 }
-heard {
+header {
     display: flex;
+    border-bottom: 0.5rem solid var(--secondary);
+}
+header picture img {
+    height: 6rem;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin: 0 1.5rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem; 
+    color: var(--primary);
+}
+main {
+    min-height: 70vh;
+}
+footer {
+    background-color: var(--secondary);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+footer > div {
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 135%;
+    max-width: 1372px;
+    margin: 0 auto;
+}
+#tabela{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
