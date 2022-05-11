@@ -66,3 +66,14 @@ footer > div {
     margin-left: auto;
     margin-right: auto;
 }
+
+main > section.auth {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > section.auth > h1 {
+    color: var(==primary);
+}
