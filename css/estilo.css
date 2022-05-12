@@ -76,4 +76,20 @@ main > section.auth {
 }
 main > section.auth > h1 {
     color: var(==primary);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-size 2rem;
+}
+main > section.auth > form {
+    background-color:#FFFF7D ;
+    border: 0.2rem solid var(FFB74D);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+main > section.aut > form > div {
+    background-color: var(--white);
+    border: 0.15rem solid var(--primary-light);
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.5rem 0;
 }
