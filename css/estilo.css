@@ -75,10 +75,10 @@ main > section.auth {
     justify-content: center;
 }
 main > section.auth > h1 {
-    color: var(==primary);
+    color: var(--primary);
     font-weight: 500;
     margin-bottom: 2rem;
-    font-size 2rem;
+    font-size: 2rem;
 }
 main > section.auth > form {
     background-color:var(--primary-light) ;
@@ -86,9 +86,9 @@ main > section.auth > form {
     border-radius: 1rem;
     padding: 1.5rem;
 }
-main > section.aut > form > div {
+main > section.auth > form > div {
     background-color: var(--white);
-    border: 0.15rem solid var(--primary-light);
+    border: 0.15rem solid var(--secondary);
     border-radius: 0.6rem;
     display: flex;
     margin: 0.5rem 0;
@@ -100,7 +100,8 @@ main > section.auth > form > div > img {
 main > section.auth > form > div > input {
     width: 90%;
     font-size: 1rem;
-    border: 2;
+    border: 0;
+    background-color: transparent;
 }
 main > section.auth > form > p > button {
     background-color: var(--blak);
